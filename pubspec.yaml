@@ -1,0 +1,45 @@
+name: gestion_lotissement
+description: Application de gestion de lotissements
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Base de données
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.11
+  
+  # Utilitaires - CORRIGÉ: version alignée avec flutter_localizations
+  intl: ^0.20.2  # Version 0.18.0 remplacée par 0.20.2
+  uuid: ^4.4.0
+  
+  # Graphiques
+  syncfusion_flutter_charts: ^32.1.19
+  
+  # Images et fichiers
+  image_picker: ^1.0.4
+  file_picker: ^6.1.1
+  
+  # Icônes
+  font_awesome_flutter: ^10.6.0
+  
+  # Optionnels
+  url_launcher: ^6.1.0
+  provider: ^6.0.5
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^1.1.3
+  build_runner: ^2.4.0
+
+flutter:
+  uses-material-design: true
